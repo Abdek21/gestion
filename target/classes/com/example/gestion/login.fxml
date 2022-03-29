@@ -47,8 +47,9 @@
             </Label>
             <TextField fx:id="usernameTxt" layoutX="115.0" layoutY="147.0" prefHeight="26.0" prefWidth="207.0" promptText="Username" />
             <PasswordField fx:id="passwordTxt" layoutX="113.0" layoutY="203.0" prefHeight="26.0" prefWidth="211.0" promptText="Password" />
-            <Button fx:id="loginbtn" layoutX="32.0" layoutY="286.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="122.0" style="-fx-background-color: #FFCDB2;" text="Connexion" textFill="#595959" />
+            <Button fx:id="loginbtn" layoutX="32.0" layoutY="286.0" mnemonicParsing="false" onAction="#loginButtonOnAction" prefHeight="30.0" prefWidth="122.0" style="-fx-background-color: #FFCDB2;" text="Connexion" textFill="#595959" />
             <Button fx:id="cancelbtn" layoutX="187.0" layoutY="286.0" mnemonicParsing="false" onAction="#cancelButtonOnAction" prefHeight="30.0" prefWidth="122.0" style="-fx-background-color: #FFCDB2;" text="Annuler" textFill="#595959" />
+            <Label fx:id="loginMsg" alignment="CENTER" layoutX="25.0" layoutY="109.0" prefHeight="18.0" prefWidth="284.0" textFill="#5b8446" />
 
          </children>
       </AnchorPane>
